@@ -4,15 +4,17 @@
 #include "sort.hpp"
 #include "test_sort.hpp"
 #include <string>
+#include "html_tag_parser.hpp"
 
 int main()
 {
 
-	testSortFunc(quickSort<int>, "QuickSort");
-	testSortFunc(bubbleSort<int>, "BubbleSort");
-	testSortFunc(mergeSort<int>, "MergeSort");
-	testSortFunc(heapSort<int>, "HeapSort");
-	testSortFunc(insertSort<int>, "InsertSort");
+	//testSortFunc(quickSort<int>, "QuickSort");
+	//testSortFunc(bubbleSort<int>, "BubbleSort");
+	//testSortFunc(mergeSort<int>, "MergeSort");
+	//testSortFunc(heapSort<int>, "HeapSort");
+	//testSortFunc(insertSort<int>, "InsertSort");
+	testHtmlTagParser();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
